@@ -1,0 +1,7 @@
+Configuration utility for the OMTI 7250 hard disk controller
+============================================================
+
+!!! WARNING !!!
+This program is UNTESTED, and as such, for all I know, it might break something! Use at your own risk!
+
+That said, this program can configure the disk parameters, run a few self-tests, and a few other functions on the OMTI 7250 hard disk controller board. xxd and sg_raw must be installed, run with "sudo lua omti.lua" or similar.
