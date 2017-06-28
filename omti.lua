@@ -1,4 +1,4 @@
-local done = falsewpc
+local done = false
 local dev = "/dev/sg0"
 local function sendcmd(cdb,param)
 	local tempname = "/tmp/omti-"..math.random(1000,9999)
